@@ -9,7 +9,7 @@ export const data = {
   education: "Bachelor of Science in Information Technology",
   educationAbbrivation: "BscIT",
   university: "Mumbai University",
-  batch:2019,
+  batch:2021,
   skills: [
     { id: "1", name: "ReactJS", icon: "https://img.icons8.com/plasticine/100/react.png" },
     { id: "2", name: "Redux Toolkit", icon: "https://img.icons8.com/color/96/redux.png" },
@@ -19,11 +19,11 @@ export const data = {
     { id: "6", name: "SCSS", icon: "https://img.icons8.com/color/96/sass.png" },
     { id: "7", name: "Bootstrap", icon: "https://img.icons8.com/color/96/bootstrap--v2.png" },
     { id: "8", name: "AntDesign", icon: "	https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" },
-    { id: "9", name: "MUI / Material UI", icon: "https://img.icons8.com/color/96/material-ui.png" },
+    { id: "9", name: "MUI /Material-UI", icon: "https://img.icons8.com/color/96/material-ui.png" },
     { id: "10", name: "TailwindCSS", icon: "https://img.icons8.com/fluency/48/tailwind_css.png" },
-    { id: "11", name: "Git / GitHub", icon: "https://img.icons8.com/color/96/git.png" },
-    { id: "12", name: "Netlify", icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" },
-    { id: "13", name: "git / GitHub", icon: "https://img.icons8.com/color/96/github.png" },
+    { id: "11", name: "Git /GitHub", icon: "https://img.icons8.com/color/96/git.png" },
+    { id: "12", name: "Netlify", icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png" },
+    // { id: "13", name: "git / GitHub", icon: "https://img.icons8.com/color/96/github.png" },
     // { id: "11", name: "git / GitHub", icon: "https://img.icons8.com/color/96/git.png" },
   ],
   organizations: [
@@ -81,4 +81,12 @@ export const data = {
       logo: "",
     },
   ],
+  achivements:[
+    {id: 1,title:"React + Redux",organization:"Solo Learn",date:"", link:""},
+    {id: 2,title:"User Experience UX",organization:"Future Learn",date:"", link:""},
+    {id: 3,title:"Jira Fundamentals Badge",organization:"",date:"", link:""},
+    {id: 4,title:"World Record to Teach 6500+ students",organization:"Golden Book of Record",date:"", link:""},
+  ]
 };
+
+
