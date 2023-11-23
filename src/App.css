@@ -1,0 +1,49 @@
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.carousel{
+    /* Width */
+  ::-webkit-scrollbar {
+    width: 5px; 
+    border-radius: 5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orange; 
+  }
+}
+.image1{
+    /* bg-contain w-full bg-no-repeat h-96  */
+    width: 100%;
+    height: 450px;
+    background: url(https://i.ibb.co/XXVrhmG/image1.png) 740px 20px ;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+@media(max-width:1200px){
+    .image1{
+        width: 100%;
+        height: 450px;
+        background: url(https://i.ibb.co/XXVrhmG/image1.png) 540px 20px ;
+        background-size: 400px;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width:1000px){
+    .image1{
+        width: 100%;
+        height: 450px;
+        background: url(https://i.ibb.co/XXVrhmG/image1.png) 340px 20px ;
+        background-size: 400px;
+        background-repeat: no-repeat;
+    }
+}

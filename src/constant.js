@@ -2,10 +2,11 @@ export const data = {
   name: "Saif Hamdare",
   mobileNumber: 9004659899,
   emailId: "saifhamdare@gmail.com",
-  linkedIn: "linkedin",
+  linkedIn: "https://in.linkedin.com/in/saif-hamdare-245304136",
   portFolio: "portfolio",
+  photo:'https://bit.ly/3QYcjgV',
   summary:
-    "FrontEnd Developer with a Experience of 1.6 Year Specialized in ReactJS",
+    "With 1.6 years in ReactJS, I love building websites that feel amazing to use. Let's create something awesome together!",
   education: "Bachelor of Science in Information Technology",
   educationAbbrivation: "BscIT",
   university: "Mumbai University",
@@ -23,13 +24,12 @@ export const data = {
     { id: "10", name: "TailwindCSS", icon: "https://img.icons8.com/fluency/48/tailwind_css.png" },
     { id: "11", name: "Git /GitHub", icon: "https://img.icons8.com/color/96/git.png" },
     { id: "12", name: "Netlify", icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png" },
-    // { id: "13", name: "git / GitHub", icon: "https://img.icons8.com/color/96/github.png" },
-    // { id: "11", name: "git / GitHub", icon: "https://img.icons8.com/color/96/git.png" },
   ],
   organizations: [
     {
       id: "3    ",
       name: "PolicyGuru Pvt Ltd.",
+      
       description: [
     " Leveraged React components, JSX, and Virtual DOM for highly responsive interfaces.",
     " Implemented Lifecycle Methods, Hooks, and Router for dynamic user experiences.",
@@ -48,7 +48,7 @@ export const data = {
     },
     {
       id: "2",
-      name: "ImpactGuru Technology Ventures",
+      name: "ImpactGuru Pvt Ltd",
       description: [
 
         "Developed responsive web pages and critical UI components, prioritizing user experiences.",
@@ -66,7 +66,7 @@ export const data = {
     },
     {
       id: "1",
-      name: "Nestable pvt ltd",
+      name: "Nestable Pvt Ltd",
       description: [
         "Developed layouts, flowcharts, and documentation to identify requirements.",
         "Wrote well-designed, clean, and testable code with a focus on React applications.",
@@ -78,15 +78,16 @@ export const data = {
       location: "Mumbai",
       startDate: "March 2022",
       endDate: "June 2022",
-      logo: "",
+      logo: "https://bit.ly/469gFGs",
     },
   ],
   achivements:[
-    {id: 1,title:"React + Redux",organization:"Solo Learn",date:"", link:""},
-    {id: 2,title:"User Experience UX",organization:"Future Learn",date:"", link:""},
-    {id: 3,title:"Jira Fundamentals Badge",organization:"",date:"", link:""},
-    {id: 4,title:"World Record to Teach 6500+ students",organization:"Golden Book of Record",date:"", link:""},
-  ]
+    {id: 1,title:"React + Redux",organization:"Solo Learn",date:"7 July 2022", link:"https://drive.google.com/file/d/1EqhQ8j7p5q1UdU8cu4nTbfSNClv4Fr_r/view?usp=drivesdk"},
+    {id: 2,title:"Jira Fundamentals Badge",organization:"Atlassian University",date:"30 June 2022", link:"https://university.atlassian.com/student/award/2m19s8R5HYkco544GiuvMr1e"},
+    {id: 3,title:"User Experience UX",organization:"Future Learn",date:"13 Feb 2022", link:"https://drive.google.com/file/d/1bAHbkIgXMj3f9vtQiC39NwvVBsLokajI/view?usp=drivesdk"},
+    {id: 4,title:"Teaching 6500+ students",organization:"Golden Book of Record",date:"25 Jan 2019", link:"https://drive.google.com/file/d/0BzGveDgM_hFVTVkzb1RVdnBXay1TVkpfS2I5MmEyR1Q1am1F/view?usp=drivesdk&resourcekey=0-Bac0pojeHtK2mGoocTtQ-w"},
+  ],
+
 };
 
 
