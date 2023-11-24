@@ -22,7 +22,7 @@ function Hero() {
         <div className="image1 hidden md:block  absolute  ">
         </div>
         <div className='carousel max-w-[300px]'>
-           <Carousel>
+           <Carousel draggable >
                     <div   className="bg-[#E3E8ED] p-3 md:p-8     rounded-xl ">
                         <p className='w-full  md:text-lg md:w-64 md:h-[270px] overflow-x-hidden' >“I have been with LG for 5 years and the opportunities for growth are here. You are tested every day on how badly you want success. LG and all the people here have helped me build myself and my performance. The diversity that we see every day makes us relate to people and makes our work environment stronger.”</p>
                         <p className='text-lg font-bold' >- Lupe</p>

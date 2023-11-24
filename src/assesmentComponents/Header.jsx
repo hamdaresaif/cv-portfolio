@@ -71,16 +71,6 @@ function Header() {
                 </a>
               </Dropdown>
               </li>
-              {/* <li>  
-              <Dropdown menu={{ items2 }}>
-                <a onClick={(e) => e.preventDefault()}>
-                  <Space>
-                  Location
-                    <DownOutlined />
-                  </Space>
-                </a>
-              </Dropdown>
-  </li> */}
               <li>Blog</li>
             </ul>
           
@@ -89,7 +79,7 @@ function Header() {
           <div onClick={()=>setShowMenu(!showMenu)} className=" flex justify-between items-center px-2 md:hidden">
             {showMenu? <CloseOutlined className='text-xl md:text-3xl'/>:<MenuOutlined className='text-xl md:text-3xl'  />}
             </div>
-            <button className='bg-[#ef7123] rounded-lg text-white text-xs md:text-base px-2 md:px-5 py-1'>Apply for a job</button>
+            <button className='bg-[#ef7123] rounded-lg text-white text-xs md:text-base px-2 md:px-5 py-1 hover:bg-[]'>Apply for a job</button>
           </div>
         </div>
         <div className={` ${showMenu?'block bg-white':'hidden'} md:hidden `}>

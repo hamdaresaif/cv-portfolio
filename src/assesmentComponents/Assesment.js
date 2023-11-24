@@ -4,6 +4,8 @@ import Hero from './Hero'
 import Community from './Community'
 import FeaturedJobs from './FeaturedJobs'
 import Staffing from './Staffing'
+import Program from './Progam'
+import ApplyToday from './ApplyToday'
 
 function Assesment() {
   return (
@@ -14,6 +16,8 @@ function Assesment() {
         <Community/>
         <FeaturedJobs/>
         <Staffing/>
+        <Program/>
+        <ApplyToday/>
 
     </div>
   )
