@@ -6,7 +6,7 @@ import { data } from './constant';
 import { useState } from 'react';
 
 function App() {
-  console.log(data)
+  // console.log(data)
   // const [design, setDesign] = useState(false);
   // const onChange = () => {
   //   setDesign(!design);

@@ -24,7 +24,8 @@ const items = [
 
 ];
 
-function Header() {
+function Header(props) {
+  const {showModal}= props
   const [showMenu,setShowMenu]=useState(false)
   return (
     <div className='cursor-pointer'>
@@ -79,7 +80,7 @@ function Header() {
           <div onClick={()=>setShowMenu(!showMenu)} className=" flex justify-between items-center px-2 md:hidden">
             {showMenu? <CloseOutlined className='text-xl md:text-3xl'/>:<MenuOutlined className='text-xl md:text-3xl'  />}
             </div>
-            <button className='bg-[#ef7123] rounded-lg text-white text-xs md:text-base px-2 md:px-5 py-1 hover:bg-[]'>Apply for a job</button>
+            <button onClick={showModal} className='bg-[#ef7123] rounded-lg text-white text-xs md:text-base px-2 md:px-5 py-1 hover:bg-[]'>Apply for a job</button>
           </div>
         </div>
         <div className={` ${showMenu?'block bg-white':'hidden'} md:hidden `}>
