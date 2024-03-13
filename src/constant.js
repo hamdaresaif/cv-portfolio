@@ -4,9 +4,9 @@ export const data = {
   emailId: "saifhamdare@gmail.com",
   linkedIn: "https://in.linkedin.com/in/saif-hamdare-245304136",
   portFolio: "portfolio",
-  photo:'https://bit.ly/3QYcjgV',
+  // photo:'https://bit.ly/3QYcjgV',
   summary:
-    "With 1.6 years in ReactJS, I love building websites that feel amazing to use. Let's create something awesome together!",
+    "With 2+ years in ReactJS, I love building websites that feel amazing to use. Let's create something awesome together!",
   education: "Bachelor of Science in Information Technology",
   educationAbbrivation: "BscIT",
   university: "Mumbai University",
@@ -28,7 +28,7 @@ export const data = {
   organizations: [
     {
       id: "3    ",
-      name: "PolicyGuru Pvt Ltd.",
+      name: "CarePal Secure",
       
       description: [
     " Leveraged React components, JSX, and Virtual DOM for highly responsive interfaces.",
@@ -48,7 +48,7 @@ export const data = {
     },
     {
       id: "2",
-      name: "ImpactGuru Pvt Ltd",
+      name: "ImpactGuru Technology Ventures",
       description: [
 
         "Developed responsive web pages and critical UI components, prioritizing user experiences.",

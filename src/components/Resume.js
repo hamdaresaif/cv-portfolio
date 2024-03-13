@@ -8,20 +8,31 @@ function Resume({design}) {
  
       <div className="container  mx-auto mt-8  my-16 mr-0 scroll-smooth">
    
-        <main className=" border-2 md:border-4 md:w-8/12 pl-6 md:pl-10 mx-auto  md:p-3 pb-5 ">
+        <main className=" border-2 bg-white md:border-2 md:w-8/12 pl-6 md:pl-10 mx-auto  md:p-3 pb-5 ">
           <div className=" personal-details   mx-auto my-5   ">
             <div className=" justify-between">
             <div className="flex items-center justify-between">
             <h2 className="font-bold  text-2xl sm:text-4xl">{data.name}</h2>
               <div className="text-center ">
-            <img className=" w-16 sm:w-20 rounded-full " src={data.photo}/>
-              <a href={data.linkedIn} target="_blank" className="flex justify-center"><img src='https://img.icons8.com/ios-filled/100/linkedin.png' className="w-5 "  /></a>
-           </div>
+            {data.photo&&<img className=" w-16 sm:w-20 rounded-full " src={data.photo}/>}
+          </div>
             </div>
-            {/* <div> */}
-            <h2 className="font-bold">{data.mobileNumber}</h2>
-            <h2 className="font-bold  ">{data.emailId}</h2>
-            {/* </div> */}
+            <div className="flex gap-4">
+            <a href={data.linkedIn} target="_blank" className="inline-block"><img src='https://img.icons8.com/ios-filled/100/linkedin.png' className="w-5 "  /></a>
+            <a href={`tel:${data.mobileNumber}`} className=" flex"  >
+            <img width="24" height="24" src="https://img.icons8.com/color/48/apple-phone.png" alt="apple-phone"/>
+            {/* <h2 className="font-bold">{data.mobileNumber}</h2> */}
+            </a>
+            <a href={`mailto:${data.emailId}`} className="flex"  >
+            <img width="24" height="24" src="https://img.icons8.com/fluency/48/mail--v1.png" alt="mail--v1"/>
+            {/* <h2 className="font-bold  ">{data.emailId}</h2> */}
+            </a>
+            {/* <a href={`}  target="_blank" className="flex"  > */}
+            <a href={` https://wa.me/9004659899`}  target="_blank" className="flex"  >
+            <img width="24" height="24" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
+            {/* <h2 className="font-bold  ">{data.emailId}</h2> */}
+            </a>
+            </div>
             </div>
             <h2 className="italic text-sm">{data.summary}</h2>
           </div>
@@ -32,7 +43,7 @@ function Resume({design}) {
               {data.skills.map((skill) => (
                 <div className="" key={skill.id}>
                   <div className="">
-                    {design ? <img src={skill.icon} width={40} /> : <></>}
+                    { <img className={`transition-opacity duration-500 ease-in-out ${design?'opacity-100' : 'opacity-0'}`} src={skill.icon} width={design?'40':'0'} /> }
 
                     <h2 className="text-sm">{skill.name}</h2>
                   </div>
