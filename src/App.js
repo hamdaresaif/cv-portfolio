@@ -13,7 +13,7 @@ function App() {
   };
   return (
     <>
-    <div className="text-center  bg-slate-200 no-print mx-auto  ">
+    {/* <div className="text-center  bg-slate-200 no-print mx-auto  ">
     <div className="  ">
 
    <h2>Unleash Developer Magic! Click to Witness.</h2>
@@ -24,7 +24,7 @@ function App() {
     <div className='container m-auto px-4 max-w-7xl' >
     <Resume  design={design} />
     </div>
-    </div>
+    </div> */}
     {/* <div className='relative'>
 
     <Assesment className=""/>

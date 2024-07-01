@@ -28,7 +28,7 @@ function Resume({design}) {
             {/* <h2 className="font-bold  ">{data.emailId}</h2> */}
             </a>
             {/* <a href={`}  target="_blank" className="flex"  > */}
-            <a href={` https://wa.me/9004659899`}  target="_blank" className="flex"  >
+            <a href={` https://wa.me/+919004659899?text=${encodeURIComponent("Hi, I got Your Number from your Profile hosted On Netlify")}`}  target="_blank" className="md:hidden"  >
             <img width="24" height="24" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
             {/* <h2 className="font-bold  ">{data.emailId}</h2> */}
             </a>
